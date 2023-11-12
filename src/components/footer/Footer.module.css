@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    height: 10vh;
+    background: #0067A3;
+	color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+.taskAmount {
+    display: flex;
+}
+
+.footer p {
+    margin: 0 20px;
+}
+@media screen and (max-width: 400px) {
+    .footer {
+        display: none;
+    }
+}

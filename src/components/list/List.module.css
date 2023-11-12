@@ -1,0 +1,64 @@
+.list {
+    margin: 20px auto;
+    width: 282px;
+    background-color: #EBECF0;
+    border-radius: 10px;
+    display: block;
+    padding-left: 22px;
+    overflow-y: scroll;
+    max-height: 540px;
+}
+.h2 {
+    font-size: 18px;
+}
+.taskTitle {
+    width: 258px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.task {
+    padding: 10px;
+    margin: 10px;
+}
+.task:hover {
+    text-decoration: underline;
+}
+.taskLink {
+    color: #000;
+    text-decoration: none;
+}
+.addButton {
+	background: none;
+	border: none;
+	appearance: none;
+	font-size: 18px;
+	color: #5E6C84;
+	cursor: pointer;
+    width: 102px;
+    height: 29px;
+    margin-bottom: 10px;
+}
+
+.addButton:hover {
+	color: #000;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.addButton:disabled {
+	cursor: auto;
+    border-radius: 5px;
+    color: #cbd4dc;
+    
+}
+.addButton:disabled:hover {
+    background-color: #EBECF0;
+}
+.novisible {
+    display: none;
+}
+@media screen and (max-width: 400px) {
+    .list {
+        margin: 20px auto;
+    }
+
+}

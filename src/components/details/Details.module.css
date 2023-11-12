@@ -1,0 +1,54 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapperC {
+    margin: 20px auto;
+    width: 90%;
+    height: 85%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.detailsTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font: 400 24px 'Roboto';
+}
+
+.textarea {
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    font: 400 18px 'Roboto';
+    color: black;
+}
+.cross {
+    width: 30px;
+    height: 30px;
+}
+.cross:hover {
+    cursor: pointer;
+}
+.butSave {
+    background-color: #0079BF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+	appearance: none;
+	font-size: 18px;
+    margin-top: 15px;
+	cursor: pointer;
+    width: 102px;
+    height: 29px;
+}
+.butSave:active { 
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+} 

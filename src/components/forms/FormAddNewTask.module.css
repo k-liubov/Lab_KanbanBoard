@@ -1,0 +1,30 @@
+
+
+.addtask {
+    display: flex;
+    flex-direction: column;
+}
+.taskTitle {
+    width: 254px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px;
+}
+.addSubmit {
+    background-color: #0079BF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+	appearance: none;
+	font-size: 18px;
+    margin: 10px 0px;
+	cursor: pointer;
+    width: 102px;
+    height: 29px;
+}
+.addSubmit:active { 
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}

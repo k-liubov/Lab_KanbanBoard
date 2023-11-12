@@ -1,0 +1,11 @@
+.main {
+    height: 80vh;
+    background-color: #0079BF;
+
+}
+@media screen and (max-width: 400px) {
+    .main {
+        height: auto
+    }
+
+}
